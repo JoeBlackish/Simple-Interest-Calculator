@@ -1,0 +1,57 @@
+body {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  
+}
+.maindiv {
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 30px;
+  width: 550px;
+}
+h1 {
+  color: grey;
+}
+#inner-container {
+  padding: 20px;
+  margin-left: 40px;
+}
+.cal-con {
+  display: flex;
+  width: 80%;
+  
+}
+.cal-con label {
+  width: 50%;
+}
+.items{
+  margin-bottom: 5px;
+}
+input[type=range]{
+  background-color: blue ;
+}
+.btn {
+  background-color: rgb(37, 37, 37);
+  color: #ffffff;
+  padding: 10px 15px;
+  margin-bottom: 7px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn:hover {
+  background-color: transparent;
+  border: 1px solid #252525;
+  color: #252525;
+}
+footer{
+  margin-top: 30px;
+}
+footer .my-name{
+  font-weight: bold;
+}
